@@ -1,0 +1,151 @@
+#searchForm {
+    position: relative;
+}
+
+#searchForm input {
+    background-color: #eaf1fb;
+    width: 450px;
+    border-radius: 41px;
+    text-indent: 2em;
+}
+
+#searchButton {
+    position: absolute;
+    border: none;
+    top: 4px;
+    left: 2px;
+    color: #7d8185;
+    border-radius: 50%;
+}
+
+#searchButton:hover {
+    background-color: rgba(221, 227, 236, 0.5);
+}
+
+#content {
+    margin-left: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    height: auto;
+    position: relative;
+    display: flex;
+}
+
+#tabNavigation {
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-left: 15px;
+    width: 200px;
+    height: 660px;
+    margin-top: 25px;
+}
+
+#tabNavigation button {
+    line-height: 33px;
+    color: #6c6d70;
+}
+
+#tabNavigation button:hover {
+    background-color: #eaebef;
+}
+
+#tabNavigation button.active,
+#tabNavigation button.active:focus {
+    background-color: #d3e3fd;
+    color: black;
+}
+
+#tabNavigation #disabledButton {
+    height: 60px;
+}
+
+#tableContent {
+    width: 82%;
+    height: 660px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 25px;
+    left: 250px;
+    padding: 15px 20px;
+}
+
+.Pager {
+    width: 1230px;
+    position: absolute;
+    bottom: 15px;
+    color: #7d8185;
+    margin-left: 27px;
+}
+
+#inboxButtons,
+#draftButtons,
+#sendButtons {
+    margin: 3px 5px;
+    margin-bottom: 13px;
+}
+
+.spinner-border {
+    position: absolute;
+    right: 25px;
+}
+
+#Compose_btns {
+    margin-top: 20px;
+}
+
+
+.message-row {
+    color: #676b71;
+}
+
+.message-row:hover {
+    color: black;
+    background-color: #eaf1fb;
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, 3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.message-row:active,
+.selected-row {
+    background-color: #c2dbff;
+    border-bottom: 1px solid gray;
+    color: black;
+}
+
+#v-pills-settings tbody td:not(:first-child) {
+    width: 45%;
+    overflow-x: auto;
+}
+
+#v-pills-send tbody td:not(:first-child),
+#v-pills-messages tbody td:not(:first-child) {
+    width: 30%;
+    overflow-x: auto;
+}
+
+#v-pills-home {
+    border: 1px solid wheat;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/02.jpg) no-repeat;
+    background-size: 100%;
+    color: #1C2938;
+}
+
+#v-pills-profile {
+    border: 1px solid wheat;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/02.jpg) no-repeat;
+    color: #1C2938;
+    padding: 15px 20px;
+}
+
+#v-pills-profile input, #v-pills-profile textarea {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
